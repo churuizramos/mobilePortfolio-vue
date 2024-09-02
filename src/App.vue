@@ -3,6 +3,7 @@
 import NavBar from "@/components/NavBar.vue";
 import HeaderComponent from "@/components/HeaderComponent.vue";
 import BodyComponent from "@/components/BodyComponent.vue";
+import DevelopmentFooter from "@/components/DevelopmentFooter.vue";
 </script>
 
 <template>
@@ -14,7 +15,7 @@ import BodyComponent from "@/components/BodyComponent.vue";
     <BodyComponent/>
   </main>
   <footer>
-
+    <DevelopmentFooter/>
   </footer>
 </template>
 
