@@ -4,7 +4,7 @@
 
 <template>
   <div class="font-archivo-black text-center my-20">
-    <h1 class="text-neutral text-8xl">JESUS RUIZ RAMOS</h1>
+    <h1 class="text-gunmetal text-8xl">JESUS RUIZ RAMOS</h1>
 
     <div class="flex flex-col gap-1 rounded-2xl mx-6 p-4">
       <h1 class="text-bright-orange">B.S. COMPUTER SCIENCE AND ENGINEERING</h1>

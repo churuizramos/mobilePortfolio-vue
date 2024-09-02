@@ -28,6 +28,8 @@ export default {
         'very-blue': '#00CEFF',
         'bright-orange': '#F49431',
         'neutral': '#EFFBFF',
+
+        'bright-gunmetal': '#3B5B68',
       },
       fontFamily: {
         'archivo-black': ["Archivo Black"],
