@@ -6,7 +6,7 @@ import HeaderComponent from "@/components/HeaderComponent.vue";
 
 <template>
   <header>
-    <NavBar class="bg-c-emerald-3 text-white w-full"/>
+    <NavBar class="bg-gunmetal text-white w-full"/>
     <HeaderComponent/>
   </header>
   <main>
