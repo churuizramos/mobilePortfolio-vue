@@ -1,35 +1,27 @@
-@import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap'); /*Archivo Black font*/
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,600;1,600&display=swap'); /*Archivo Narrow SemiBold 600*/
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500&display=swap'); /*Archivo Regular 500*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&display=swap'); /*Poppins Light 300*/
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-weight: normal;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .list-item-c{
+        @apply bg-gunmetal-gray p-4 rounded-2xl m-6 border-2 border-[#3B5B68]
+    }
+    .list-link{
+        @apply flex flex-row items-center gap-6
+    }
+    .list-link-label{
+        @apply text-2xl
+    }
+    .list-link-sub{
+        @apply text-deep-back
+    }
 }
-
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-  padding: 3px;
-}
-
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
-}
-
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+html {
+    --scroll-behavior: smooth!important;
+    scroll-behavior: smooth!important;
 }
