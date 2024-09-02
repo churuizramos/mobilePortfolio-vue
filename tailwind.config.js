@@ -15,6 +15,12 @@ export default {
 
         'c-orange-1': '#d79130',
         'c-orange-2': '#7e3a14',
+
+        'columbia-blue': '#C9DAEA',
+        'gunmetal': '#143642',
+        'beaver': '#A18276',
+        'brunswick-green': '#023C38',
+        'bittersweet': '#FE5F55'
       },
       textColor: {
         'c-emerald-1': '#80be9f',
@@ -24,6 +30,12 @@ export default {
 
         'c-orange-1': '#d79130',
         'c-orange-2': '#7e3a14',
+
+        'columbia-blue': '#C9DAEA',
+        'gunmetal': '#143642',
+        'beaver': '#A18276',
+        'brunswick-green': '#023C38',
+        'bittersweet': '#FE5F55'
       },
       fontFamily: {
         'archivo-black': ["Archivo Black"],
