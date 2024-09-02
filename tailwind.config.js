@@ -8,34 +8,35 @@ export default {
     darkMode: false,
     extend: {
       backgroundColor: {
-        'c-emerald-1': '#80be9f',
-        'c-emerald-2': '#669675',
-        'c-emerald-3': '#2a4849',
-        'c-emerald-4': '#203524',
-
-        'c-orange-1': '#d79130',
-        'c-orange-2': '#7e3a14',
-
         'columbia-blue': '#C9DAEA',
-        'gunmetal': '#143642',
         'beaver': '#A18276',
         'brunswick-green': '#023C38',
-        'bittersweet': '#FE5F55'
+        'bittersweet': '#FE5F55',
+
+        'gunmetal': '#143642',
+        'deep-back': '#001F2A',
+        'very-blue': '#00CEFF',
+        'bright-orange': '#F49431',
+        'neutral': '#EFFBFF',
+
+        'bright-gunmetal': '#3B5B68',
+        'gunmetal-gray': '#647a84',
       },
       textColor: {
-        'c-emerald-1': '#80be9f',
-        'c-emerald-2': '#669675',
-        'c-emerald-3': '#2a4849',
-        'c-emerald-4': '#203524',
-
-        'c-orange-1': '#d79130',
-        'c-orange-2': '#7e3a14',
-
         'columbia-blue': '#C9DAEA',
-        'gunmetal': '#143642',
         'beaver': '#A18276',
         'brunswick-green': '#023C38',
-        'bittersweet': '#FE5F55'
+        'bittersweet': '#FE5F55',
+
+        'gunmetal': '#143642',
+        'deep-back': '#001F2A',
+        'very-blue': '#00CEFF',
+        'bright-orange': '#F49431',
+        'neutral': '#EFFBFF',
+
+        'bright-gunmetal': '#3B5B68',
+        'gunmetal-gray': '#647a84',
+
       },
       fontFamily: {
         'archivo-black': ["Archivo Black"],

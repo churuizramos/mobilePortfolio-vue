@@ -8,7 +8,20 @@
 @tailwind utilities;
 
 @layer utilities {
-    .links-hover{
-        @apply hover:text-gray-500
+    .list-item-c{
+        @apply bg-gunmetal-gray p-4 rounded-2xl m-6 border-2 border-[#3B5B68]
     }
+    .list-link{
+        @apply flex flex-row items-center gap-6
+    }
+    .list-link-label{
+        @apply text-2xl
+    }
+    .list-link-sub{
+        @apply text-deep-back
+    }
+}
+html {
+    --scroll-behavior: smooth!important;
+    scroll-behavior: smooth!important;
 }
