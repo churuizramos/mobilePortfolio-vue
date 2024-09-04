@@ -1,17 +1,15 @@
 <script setup>
 
-import NavBar from "@/components/NavBar.vue";
 import HeaderComponent from "@/components/HeaderComponent.vue";
 import BodyComponent from "@/components/BodyComponent.vue";
 import DevelopmentFooter from "@/components/DevelopmentFooter.vue";
 </script>
 
 <template>
-  <header class="bg-gradient-to-t from-[#001F2A] to-[#EFFBFF]">
-    <NavBar/>
+  <header>
     <HeaderComponent/>
   </header>
-  <main class="bg-deep-back">
+  <main>
     <BodyComponent/>
   </main>
   <footer>
