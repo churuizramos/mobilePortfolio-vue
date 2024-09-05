@@ -12,7 +12,7 @@ import DevelopmentFooter from "@/components/DevelopmentFooter.vue";
   <main>
     <BodyComponent/>
   </main>
-  <footer>
+  <footer class="m-6">
     <DevelopmentFooter/>
   </footer>
 </template>

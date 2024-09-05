@@ -46,6 +46,13 @@ export default {
       },
       borderRadius: {
         '4xl': '40%'
+      },
+      borderColor: {
+        'gunmetal': '#143642',
+        'deep-back': '#001F2A',
+        'columbia-blue': '#C9DAEA',
+        'bright-orange': '#F49431',
+        'neutral': '#EFFBFF',
       }
     },
   },
